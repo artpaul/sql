@@ -23,7 +23,7 @@ set(BUILD_SHARED_LIBS OFF)
 
 # Third parties come with their own setup of
 # C++ standard and compiler options.
-add_subdirectory(contrib EXCLUDE_FROM_ALL)
+add_subdirectory(contrib)
 
 # Setup C++ standard for the project.
 set(CMAKE_CXX_STANDARD 20)
