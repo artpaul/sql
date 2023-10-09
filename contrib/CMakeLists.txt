@@ -1,3 +1,4 @@
+add_subdirectory(avro)
 add_subdirectory(boost)
 add_subdirectory(cpp-httplib)
 add_subdirectory(cxxopts)
