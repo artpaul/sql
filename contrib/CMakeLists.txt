@@ -6,6 +6,7 @@ add_subdirectory(fmt)
 add_subdirectory(libpg_query)
 add_subdirectory(snappy)
 add_subdirectory(xxhash)
+add_subdirectory(zlib-ng)
 
 # Tests.
 if(BUILD_TESTS)
